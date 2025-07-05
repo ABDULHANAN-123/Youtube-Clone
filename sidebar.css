@@ -1,0 +1,33 @@
+.sidebar{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    top: 55px;
+    border-right-width: 1px;
+    border-right-style:solid ;
+    border-right-color: rgb(225, 225, 225);
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+}
+.One{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.One:hover{
+    background-color: rgb(229, 229, 229);
+    cursor: pointer;
+}
+.One img{
+    height: 24px;
+    margin-bottom: 6px;
+}
+.One div{
+    font-family: Roboto , Arial;
+    font-size: 10px;
+}
